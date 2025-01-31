@@ -61,6 +61,7 @@
   .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
+    border: 1px solid red;
   }
 
   .header-top {
@@ -71,6 +72,11 @@
   .header-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .nav > ul {
