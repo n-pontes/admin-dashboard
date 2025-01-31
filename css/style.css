@@ -93,7 +93,6 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
-    border: 1px solid blue;
     color: white;
     background-color: rgb(79, 139, 218);
     padding-left: 5%;
@@ -108,7 +107,18 @@
 
   .side-menu-top div i {
     font-size: 22px; 
-}
+  }
+
+  .side-menu-bottom div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .side-menu-bottom div i {
+    font-size: 22px;
+  }
 
   .header {
     display: grid;
