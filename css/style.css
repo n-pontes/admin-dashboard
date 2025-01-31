@@ -67,3 +67,12 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .header-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nav > ul {
+    list-style-type: none;
+  }
