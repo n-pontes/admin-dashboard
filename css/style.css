@@ -45,3 +45,13 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  .container {
+    display: grid;
+  }
+
+  .sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
