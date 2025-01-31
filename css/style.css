@@ -76,6 +76,7 @@
     --sidebar-bg-color: rgb(79, 139, 218);
     --main-color: rgb(243, 243, 243);
     --main-dark-color: rgb(27, 27, 27);
+    --article-color: rgb(221, 221, 221);
   }
 
   body {
@@ -170,5 +171,11 @@
     color: var(--main-dark-color);
   }
 
+  input[type="search"] {
+    width: 80%;
+    border-radius: 25px;
+    background-color: var(--article-color);
+    border: none;
+  }
   
 
