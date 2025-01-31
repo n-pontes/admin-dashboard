@@ -94,7 +94,8 @@
   .logo {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.63em;
+    padding-top: 3.2%;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 2rem;
@@ -140,6 +141,7 @@
   .header-top {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 1.3%;
   }
 
   .header-bottom {
@@ -176,6 +178,11 @@
     border-radius: 25px;
     background-color: var(--article-color);
     border: none;
+  }
+
+  .search {
+    display: flex;
+    align-items: flex-start;
   }
   
 
