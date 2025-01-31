@@ -183,6 +183,17 @@
   .search {
     display: flex;
     align-items: flex-start;
+    border: solid 1px red;
+  }
+
+  #notifications {
+    color: var(--main-dark-color);
+  }
+
+  .profile-pic {
+    display: flex;
+    align-items: flex-start;
+    border: solid 1px red;
   }
   
 
