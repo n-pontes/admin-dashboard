@@ -72,6 +72,7 @@
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     font-size: 1.25rem;
+    font-weight: 600;
   }
 
   .container {
@@ -90,6 +91,7 @@
     grid-template-columns: 1fr;
     gap: 2em;
     border: 1px solid blue;
+    color: white;
     background-color: rgb(79, 139, 218);
     padding-left: 5%;
   }
@@ -120,5 +122,15 @@
   }
   
   .material-icons {
-    font-size: 15px !important;
+    font-size: 22px;
+    color: white;
+    padding-right: 3%;
+    padding-left: 2%;
   }
+
+  #dash {
+    font-size: 40px;
+  }
+
+  
+
