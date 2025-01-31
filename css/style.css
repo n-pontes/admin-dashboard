@@ -75,6 +75,7 @@
   :root {
     --sidebar-bg-color: rgb(79, 139, 218);
     --main-color: rgb(243, 243, 243);
+    --main-dark-color: rgb(27, 27, 27);
   }
 
   body {
@@ -163,6 +164,10 @@
 
   #dash {
     font-size: 40px;
+  }
+
+  #search {
+    color: var(--main-dark-color);
   }
 
   
