@@ -74,6 +74,7 @@
 
   :root {
     --sidebar-bg-color: rgb(79, 139, 218);
+    --main-color: rgb(243, 243, 243);
   }
 
   body {
@@ -101,7 +102,7 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2em;
-    color: white;
+    color: var(--main-color);
     background-color: var(--sidebar-bg-color);
     padding-left: 5%;
   }
