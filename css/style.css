@@ -83,3 +83,7 @@
   .nav > ul {
     list-style-type: none;
   }
+  
+  .material-icons {
+    font-size: 78px !important;
+  }
