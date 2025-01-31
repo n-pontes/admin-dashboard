@@ -47,7 +47,7 @@
   }
 
   /*
-  Custom font
+    Custom font
   */
 
   @font-face {
@@ -65,8 +65,16 @@
   }
 
   /*
-  Project
+    Custom properties
   */
+
+  /*
+    Project
+  */
+
+  :root {
+    --sidebar-bg-color: rgb(79, 139, 218);
+  }
 
   body {
     font-family: 'Roboto', sans-serif;
@@ -94,30 +102,30 @@
     grid-template-columns: 1fr;
     gap: 2em;
     color: white;
-    background-color: rgb(79, 139, 218);
+    background-color: var(--sidebar-bg-color);
     padding-left: 5%;
   }
 
   .side-menu-top div {
     display: flex;
     align-items: center; 
-    gap: 10px; 
-    padding: 10px;
+    gap: 0.63em; 
+    padding: 0.63em;
   }
 
   .side-menu-top div i {
-    font-size: 22px; 
+    font-size: 1.38em; 
   }
 
   .side-menu-bottom div {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 10px;
+    gap: 0.63em;
+    padding: 0.63em;
   }
 
   .side-menu-bottom div i {
-    font-size: 22px;
+    font-size: 1.38em;
   }
 
   .header {
